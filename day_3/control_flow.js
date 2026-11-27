@@ -15,6 +15,21 @@ else{
     console.log("fail");
 }
 
+// Check array
+let f = [10,20,30]
+if(f.length == 0)
+    console.log("Empty Array")
+
+let obj = {
+    id :1,
+    name : "Alex"
+}
+
+if(Object.keys(obj).length==0)
+{
+    console.log("Empty Object")
+}
+
 let day="monday";
 switch(day){
     case "monday":
